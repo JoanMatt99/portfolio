@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1aa5f0fafa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Joan Jiji Mathew</title>
+</head>
+<body>
+    <div class="landing-page">
+        
+        <!-- NAVBAR START-->
+
+        <div class="new-section section-nav">
+            <div class="topnav">
+                <!-- <a href="#about">XYZ</a> -->
+                <a href="#contact">Contact</a>
+                <a href="https://drive.google.com/file/d/1uii7bkqm36qNbYgSTXy0fu8GY_-pMZ5T/view">Resume</a>
+                <a class="active" href="#home">Home</a>
+            </div>
+        </div>
+
+        <!-- NAVBAR END-->
+
+
+        <!-- PROFILE START -->
+
+        <div class="new-section section-profile">
+            <div class="profile-box">
+                <div class="p-img"><img src="https://drive.google.com/file/d/1AD9bwzE5kKT-Ajd0RigMCz80xk8ljjNu/view?usp=sharing" alt="" class="profile-img"><span class="hi">Hello,</span><br>
+                    <div class="itsme">My name is <span id="n1">Joan</span><span id="n2"> Jiji</span><span id="n3"> Mathew.</span></div><br>
+                    <span class="ptext">I am passionate about bringing design and technology together and enjoy building websites using HTML, CSS, JavaScript and Bootstrap Framework. Learning new things and continuously working on enhancing my skills is something I enjoy enormously. I'm comfortable with programming and find myself most at ease with Python.
+
+                        I have an eye for detail and good design, and am deeply fascinated by the world of User Interface and User Experience, which I pursue during my free time. I design posters, brochures and videos and also love painting and sketching.</span></div>
+            </div>
+        </div>
+
+        <!-- PROFILE END -->
+
+
+
+
+        <!-- QUOTE START -->
+        <div class="new-section section-quote">
+            <div class="quote-box">
+                <i class="fa-solid fa-quote-left fa-5x"></i>
+                <div class="q-text"><p>Lorem ipsum dolor sit amet, <span class="highlight"> consectetur</span> adipiscing elit. Proin eu pulvinar urna, quis dignissim augue. </p></div>
+            </div>
+        </div>
+            
+        <!-- QUOTE END -->
+
+
+
+
+        <!-- SLIDER START -->
+
+        <div class="new-section section-slider">
+            <div class="slidecontainer">
+                <!-- image slider start -->
+                <div class="slider">
+                  <div class="slides">
+          
+                      <!-- radio btn start -->
+                      <input type="radio" name="radio-btn" id="radio1" >
+                      <input type="radio" name="radio-btn" id="radio2" >
+                      <input type="radio" name="radio-btn" id="radio3" >
+                      <input type="radio" name="radio-btn" id="radio4" >
+                      <!-- radio btn end -->
+                      <!-- slide images start -->
+                      <div class="slide first">
+                          <img src="1.png" alt="">
+                      </div>
+                      <div class="slide">
+                          <img src="2.png" alt="">
+                      </div>
+                      <div class="slide">
+                          <img src="3.png" alt="">
+                      </div>
+                      <div class="slide">
+                          <img src="4.png" alt="">
+                      </div>
+                      <!-- slide images end -->
+          
+                      <!-- auto nav start -->
+                      <div class="nav-auto">
+                          <div class="auto-btn1"></div>
+                          <div class="auto-btn2"></div>
+                          <div class="auto-btn3"></div>
+                          <div class="auto-btn4"></div>
+                      </div>
+                      <!-- auto nav end -->
+          
+                      <!-- manual nav start -->
+                      <div class="nav-manual">
+                          <label for="radio1" class="manual-btn"></label>
+                          <label for="radio2" class="manual-btn"></label>
+                          <label for="radio3" class="manual-btn"></label>
+                          <label for="radio4" class="manual-btn"></label>
+                      </div>
+                      <!-- manual nav end -->
+                  </div>
+                </div>
+                <!-- image slider end -->
+          
+                <script type="text/javascript">
+                    var counter = 1;
+                    setInterval(function(){
+                        document.getElementById('radio' + counter).checked = true;
+                        counter++;
+                        if(counter>4){
+                            counter = 1;
+                        }
+                    }, 3000);
+                </script>
+            </div>
+        </div>
+
+        <!-- SLIDER END -->
+
+
+
+
+            
+        <!-- FOOTER START -->
+    <div class="new-section section-footer">
+        <footer>
+            <div class="footer-menu" id="contact">
+                <ul class="footer-list">
+                    <li><a href="tel:8301892797" class="tooltip">
+                        <i class="fa-solid fa-phone"></i><span class="tooltiptext">+91 8301892797</span></a></li>
+                    <li><a href="mailto:joanjiji32@gmailcom" class="tooltip">
+                        <i class="fa-solid fa-envelope"></i><span class="tooltiptext">joanjiji32@gmail.com</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/joanjijimathew/" class="tooltip">
+                        <i class="fa-brands fa-linkedin-in"></i><span class="tooltiptext">joanjijimathew</span></a></li>
+                    <li><a href="https://www.instagram.com/thepurplejournaler/" class="tooltip">
+                        <i class="fa-brands fa-instagram"></i><span class="tooltiptext">@thepurplejournaler</span></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- FOOTER END -->
+    
+    </div>
+    <!-- LANDING PAGE END -->
+       
+</body>
+</html>
