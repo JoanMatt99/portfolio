@@ -111,7 +111,7 @@ body{
   .quote-box .q-text{
     font-size: 28px;
     max-height: 150px;
-    overflow: hidden;
+    overflow: auto;
   }
 
   .highlight{
