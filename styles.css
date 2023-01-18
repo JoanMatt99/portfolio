@@ -18,7 +18,7 @@ body{
   .topnav {
     width: 100%;
     overflow: hidden;
-    background-color: black;
+    background-color: #121212;
     padding-right: 10px;
   }
 
@@ -45,7 +45,7 @@ body{
 
   .topnav a.active:hover {
     background-color: aqua;
-    color: black;
+    color: #121212;
   }
 
 
@@ -185,7 +185,7 @@ body{
   }
 
   .manual-btn:hover{
-    background-color: black;
+    background-color: #121212;
   }
 
 
@@ -215,7 +215,7 @@ body{
   }
 
   .nav-auto div{
-    border: 2px solid black;
+    border: 2px solid #121212;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -227,19 +227,19 @@ body{
   }
 
   #radio1:checked ~ .nav-auto .auto-btn1{
-    background: black;
+    background: #121212;
   }
 
   #radio2:checked ~ .nav-auto .auto-btn2{
-    background: black;
+    background: #121212;
   }
 
   #radio3:checked ~ .nav-auto .auto-btn3{
-    background: black;
+    background: #121212;
   }
 
   #radio4:checked ~ .nav-auto .auto-btn4{
-    background: black;
+    background: #121212;
   }
 
 
@@ -306,7 +306,7 @@ body{
   width: 120px;
   font-size: 12px;
   background-color: aqua;
-  color: black;
+  color: #121212;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
